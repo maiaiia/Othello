@@ -1,0 +1,33 @@
+class BoardConstants:
+    EMPTY_CELL = ' '
+    WHITE = 'W'
+    BLACK = 'B'
+    VALID_DIRECTIONS = [(0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (-1, -1), (1, -1), (-1, 1)]
+    BOARD_SIZE = 8
+
+class GUIConstants:
+    WINDOW_WIDTH = 1200
+    WINDOW_HEIGHT = 800
+
+    BOARD_LENGTH = 800
+    CELL_SIZE = 100
+
+    TEXT_COLOR = "#B36B55"
+    HIGHLIGHT_COLOR = "#FDFD96"
+
+    DARK_CELL_COLOR = "#B36B55"
+    LIGHT_CELL_COLOR = "#E8B4A0"
+    BACKGROUND_COLOR = "#F5F5DC"
+
+    DARK_PIECE_COLOR = "#4B4B4B"
+    DARK_PIECE_OUTLINE = "#7F7F7F"
+    LIGHT_PIECE_COLOR = "#E8E8E8"
+    LIGHT_PIECE_OUTLINE = "#B0B0B0"
+    PIECE_PADDING = 12
+    PIECE_OUTLINE = 2
+
+class GameState:
+    QUIT = -1
+    TITLE_SCREEN = 1
+    SETUP_SCREEN = 2
+    GAME_SCREEN = 3
