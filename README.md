@@ -20,4 +20,4 @@ The FP course was my first interaction with basic software engineering principle
 - **AI Algorithm**: Minmax with alpha-beta pruning
 
 ## Gameplay
-[](https://github.com/maiaiia/Othello/blob/main/OthelloGameplay.gif)
+![](https://github.com/maiaiia/Othello/blob/main/OthelloGameplay.gif)
